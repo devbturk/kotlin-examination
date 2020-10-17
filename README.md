@@ -1,1 +1,6 @@
-# MMOT213
+#  - Android Uygulama Geliştirme
+Kullanılan programlama dili Kotlin
+
+
+
+
