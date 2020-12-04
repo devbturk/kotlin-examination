@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".news_Detail"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Başlık"
+        android:background="#96F6F6F6"
+        android:fontFamily="sans-serif-black"
+        android:autoSizeTextType="uniform"
+        android:gravity="center_horizontal" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/textTitle"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/textDes"
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="10dp"
+        android:autoSizeTextType="uniform"
+        android:background="#00BCD4"
+        android:gravity="center_horizontal"
+        android:text="NULL"
+        android:textAlignment="center"
+        android:textColor="#FC151515" />
+    <TextView
+        android:id="@+id/txtUrl"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="center"
+        android:text="URL"
+        android:autoSizeTextType="uniform"
+        android:background="#96F6F6F6"
+        android:layout_below="@id/textDes"
+        android:layout_marginTop="5dp"
+
+
+        android:gravity="center_horizontal" />
+
+</RelativeLayout>
